@@ -9,10 +9,9 @@ s.license         = { :type => 'CUSTOM', :file => 'LICENSE' }
 s.author          = { 'Paolo Donato' => 'paolo.donato@geouniq.com' }
 s.platform     = :ios
 s.ios.deployment_target = '8.1'
-s.documentation_url = 'https://gitlab.com/geouniq/documentation/blob/master/sdk/integration/ios.md'
 
 # the Pre-Compiled Framework:
-s.source          = { :http => "https://github.com/geouniq/GeoUniqSDK-iOS-Swift-5/raw/master/GeoUniq-Swift5-#{s.version}.zip" }
+s.source          = { :http => 'https://github.com/geouniq/GeoUniqSDK-iOS-Swift-5/raw/master/GeoUniq-Swift5-1.4.1.zip' }
 s.ios.vendored_frameworks = 'GeoUniq.framework'
 s.swift_version = "5.0"
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
