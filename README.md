@@ -1,31 +1,43 @@
 # SDK Integration
  
-> Xcode Reference Version: 10.2  - Swift 5.0 
-
-> GeoUniq Framework Version: 1.4.2 
- 
- 
 ## Table of Contents
 
-1. [Installation](#user-content-installation)
+1. [Reference versions](#user-content-reference-versions)
+    1. [Xcode](#user-content-xcode)
+    2. [GeoUniq](#user-content-geouniq)
+    3. [Swift 5.0](#user-content-swift-50)
+2. [Installation](#user-content-installation)
     1. [CocoaPods](#user-content-cocoapods)
     2. [Manual](#user-content-manual)
-    3. [Previus version](#user-content-previus-version)
-2. [Project settings](#user-content-project-settings)
+3. [Project settings](#user-content-project-settings)
     1. [Mobile key](#user-content-mobile-key)
     2. [Location usage keys](#user-content-location-usage-keys)
     3. [Universal framework](#user-content-location-universal-framework)
-3. [Basic operations](#user-content-basic-operations)
+4. [Basic operations](#user-content-basic-operations)
     1. [Enable/Disable SDK](#user-content-enabledisable-the-sdk)
     2. [Handle user consent](#user-content-handle-user-consent)
 
+## Reference Versions
+
+### Xcode
+
+10.1 (see [here](#user-content-swift-50) for new version 10.2 (Swift 5.0)
+
+### GeoUniq
+
+1.4.2 - [Changelog](/sdk/integration/changeLogIos.md)
+
+
+### Swift 5.0
+
+- For add Geouniq to new Xcode 10.2 (Swift version 5) use framework version 1.4.2 with specific pod (`pod 'GeoUniq-Swift5'`)
 
 
 ## Installation
 
 ### CocoaPods
 
-Add `pod 'GeoUniq-Swift5'` to your Podfile and run `pod install`. More details [CocoaPods here](https://cocoapods.org/).
+Add `pod 'GeoUniq'` to your Podfile and run `pod install`. More details [CocoaPods here](https://cocoapods.org/).
 
 ### Manual
 
@@ -36,11 +48,6 @@ Add `pod 'GeoUniq-Swift5'` to your Podfile and run `pod install`. More details [
     - General tab -> Embedded Binaries section: add GeoUniq.framework
     - General tab -> Linked Framewroks and Libraries section: remove both of the duplicates of GeoUniq.framework
     - Build Settings tab -> Build Options section -> Always Embed Swift Standard Libraries -> set to YES
-
-### Previus version
-
-- For add Geouniq to Xcode 9.4.1 (Swift version 3.3) follow the [manual procedure](#user-content-manual)  
-
 
 
 ## Project settings
