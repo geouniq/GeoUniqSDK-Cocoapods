@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'GeoUniq-Swift5'
-s.version          = '1.5.22'
+s.version          = '1.5.24'
 s.summary          = 'GeoUniq ios framework for Swift 5.0'
 
 s.homepage        = "http://www.geouniq.com"
