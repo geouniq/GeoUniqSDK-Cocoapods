@@ -8,7 +8,7 @@ s.homepage        = "http://www.geouniq.com"
 s.license         = { :type => 'CUSTOM', :file => 'LICENSE' }
 s.author          = { 'Paolo Donato' => 'paolo.donato@geouniq.com' }
 s.platform     = :ios
-s.ios.deployment_target = '8.1'
+s.ios.deployment_target = '10'
 
 # the Pre-Compiled Framework:
 s.source          = { :http => "https://github.com/geouniq/GeoUniqSDK-iOS-Swift-5/raw/master/GeoUniq-Swift5-#{s.version}.zip" }
